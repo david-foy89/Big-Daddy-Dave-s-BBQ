@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+body {
+    color: rgb(236, 127, 42);
+    background-color: rgb(60, 21, 16);
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.logo {
+    display: block;
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-menu-item a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(236, 127, 42);
+
+}
+
+h1, h2 {
+    color: rgb(241, 227, 188);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
