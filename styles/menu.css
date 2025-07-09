@@ -13,7 +13,7 @@ body {
   font-style: normal;
   display: flex;
   flex-direction: column;
-  margin: 15px;
+  margin: 25px;
 }
 
 .logo {
@@ -107,6 +107,26 @@ p {
 .menu-item-description {
   line-height: 1.6;
   color: rgb(241, 227, 188);
+}
+
+.catering-header {
+  text-align: center;
+  margin: 2em 0;
+  color: rgb(241, 227, 188);
+}
+
+[type="submit"] {
+  background-color: rgb(236, 127, 42);
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 3px 3px 0px rgba(255, 255, 255, 5);
+  box-sizing: content-box;
+  font-size: 1rem;
+}
+
+[type="submit"]:hover {
+  background-color: black;
 }
 
 @media screen and (min-width: 992px) {
