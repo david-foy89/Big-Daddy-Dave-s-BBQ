@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <a href="index.html"
+          ><img
+            src="images/logo2.png"
+            alt="logo"
+            class="headerlogo"
+            width="200px"
+        /></a>
+        <ul class="header-nav-menu">
+          <li class="header-menu-item"><a href="index.html">Home</a></li>
+          <li class="header-menu-item"><a href="menu.html">Menu</a></li>
+          <li class="header-menu-item"><a href="catering.html">Catering</a></li>
+          <li class="header-menu-item"><a href="contact.html">Contact</a></li>
+          <li class="header-menu-item">
+            <a href="joinus.html">Join Our Team</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="contact " class="bg-dark">
+      <h2>Contact Us</h2>
+      <form action="#" method="GET">
+        <section class="form-row">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+        </section>
+        <section class="form-row">
+          <input
+            type="phone"
+            name="phone"
+            id="name"
+            placeholder="Phone Number"
+            required
+          />
+        </section>
+
+        <section class="form-row">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-Mail"
+            required
+          />
+        </section>
+        <section class="form-row">
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </section>
+
+        <div class="form-row">
+          <input type="submit" />
+        </div>
+      </form>
+
+      <ul class="contact-info">
+        <li>123 Main St. Erwin, Tennessee</li>
+        <li>Phone: 423-948-7898</li>
+        <li>E-mail: bigdaddydave@gmail.com</li>
+        <li>
+          <h3>Hours</h3>
+          <ol>
+            <li>Monday - Thursday: 11:00 AM - 9:00 PM</li>
+            <li>Friday - Saturday: 11:00 AM - 10:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
