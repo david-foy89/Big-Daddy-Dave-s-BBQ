@@ -89,3 +89,10 @@ textarea {
   text-align: center;
 }
 
+.appform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
