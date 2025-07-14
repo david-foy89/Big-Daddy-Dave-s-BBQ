@@ -143,3 +143,10 @@ p {
     height: 125px;
   }
 }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(241, 227, 188);
+  font-size: 16px;
+}
