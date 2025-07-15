@@ -6,7 +6,7 @@ Welcome to **Big Daddy Dave's BBQ** — your digital pit stop for mouthwatering 
 
 [Visit the Website](https://david-foy89.github.io/Big-Daddy-Dave-s-BBQ/)
 
-## 📸 Features
+## Features
 
 - Menu-style layout featuring BBQ favorites like brisket, ribs, pulled pork, smoked wings, and more.
 - Dark-themed aesthetic with rustic and smoky design elements.
@@ -17,8 +17,7 @@ Welcome to **Big Daddy Dave's BBQ** — your digital pit stop for mouthwatering 
 ## Built With
 
 - HTML5
-- CSS3
-- JavaScript (if applicable — update if used)
+- CSS
 - [GitHub Pages](https://pages.github.com/) for hosting
 
 ## File Structure
