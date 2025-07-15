@@ -1,0 +1,3 @@
+Potential Customer- Can easily view menu with photos, descriptions, and prices to decide what to order. 
+Potential Customer-Can place a custom catering order and contact resturant with questions or feedback through contact form.
+Potential employees- Can submit their information including resume to join the resturant team. 
