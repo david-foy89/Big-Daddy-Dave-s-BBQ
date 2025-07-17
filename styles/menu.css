@@ -49,6 +49,9 @@ h2 {
   justify-content: center;
   text-align: center;
 }
+.catering-intro {
+  padding-bottom: 30px;
+}
 
 p {
   text-align: center;
@@ -113,6 +116,7 @@ p {
   text-align: center;
   margin: 2em 0;
   color: rgb(241, 227, 188);
+  
 }
 
 [type="submit"] {
