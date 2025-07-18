@@ -30,6 +30,13 @@ Big-Daddy-Dave-s-BBQ/
 │ ├── bg-img.png
 │ └── (various food images)
 └── README.md
+
+## Future Improvements
+
+- Add the ability to completely place an order and pay online.
+- Create a pop to join a newsletter for future events and receive a coupon.
+- Create links to future social sites to promote website and business.
+
 Author
 David Foy
 
