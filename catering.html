@@ -10,11 +10,7 @@
     <header>
       <nav class="header-nav">
         <a href="index.html"
-          ><img
-            src="images/logo2.png"
-            alt="logo"
-            class="headerlogo"
-            width="200px"
+          ><img src="images/logo2.png" alt="logo" class="headerlogo"
         /></a>
         <ul class="header-nav-menu">
           <li class="header-menu-item"><a href="index.html">Home</a></li>
@@ -36,50 +32,92 @@
         form below to get started on your catering request!
       </p>
     </div>
-    <form class="catering-form" action="https://formspree.io/f/xldlrqgl" method="POST">
+    <form
+      class="catering-form"
+      action="https://formspree.io/f/xldlrqgl"
+      method="POST"
+    >
       <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" required><br>
+      <input type="text" id="fname" name="fname" required /><br />
       <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" required><br>
-      <label for="number">Phone Number:</label>
-      <input type="number" id="phone" name="phone"><br>
-      <label for="numberofguests">Number of Guests:</label>
-      <input type="number" id="guests" name="guests"><br>
+      <input type="text" id="lname" name="lname" required /><br />
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" /><br />
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" /><br />
       <label for="date">Event Date:</label>
-      <input type="date" id="date" name="date" required><br>
-      <label for="pickup/delivery">Pickup:</label>
-      <input type="radio" id="pickup" name="service" value="pickup"><br>
-      <label for="pickup">Delivery:</label>
-      <input type="radio" id="delivery" name="service" value="delivery"><br>
-      <label for="time">Time for Pickup/Delivery</label><br>
-      <input type="time" id="time" name="time"><br>
+      <input type="date" id="date" name="date" required /><br />
+      <label for="pickup">Pickup:</label>
+      <input type="radio" id="pickup" name="pickup" value="pickup" /><br />
+      <label for="delivery">Delivery:</label>
+      <input
+        type="radio"
+        id="delivery"
+        name="delivery"
+        value="delivery"
+      /><br />
+      <label for="time">Time for Pickup/Delivery</label><br />
+      <input type="time" id="time" name="time" /><br />
       <h3 class="catering-header">Food & Utensil Choices</h3>
-      <label for="food">Food Choices:</label><br>
-      <input type="checkbox" id="bbq" name="food" value="BBQ Ribs"> BBQ Ribs<br>
-      <input type="checkbox" id="pulledpork" name="food" value="Pulled Pork"> Pulled Pork<br>
-      <input type="checkbox" id="brisket" name="food" value="Brisket"> Brisket<br>
-      <input type="checkbox" id="chicken" name="food" value="Chicken"> Chicken<br>
-      <input type="checkbox" id="mac_cheese" name="food" value="Sides Mac & Cheese"> Mac & Cheese<br>
-      <input type="checkbox" id="bakedbeans" name="food" value="Sides Baked Beans"> Baked Beans<br>
-      <input type="checkbox" id="greenbean" name="food" value="Sides Coleslaw"> Green Bean Casserole<br>
-      <label for="utensils">Utensil Choices:</label><br>  
-      <input type="checkbox" id="forks" name="utensils" value="Forks"> Forks<br>
-      <input type="checkbox" id="knives" name="utensils" value="Knives"> Knives<br>
-      <input type="checkbox" id="spoons" name="utensils" value  ="Spoons"> Spoons<br>
-      <input type="checkbox" id="napkins" name="utensils" value="Napkins"> Napkins<br>
-      <input type="checkbox" id="plates" name="utensils" value="    Plates"> Plates<br>
-      <input type="checkbox" id="cups" name="utensils" value="Cups"> Cups<br>
-      <input type="checkbox" id="servingutensils" name="utens ils" value="Serving Utensils"> Serving Utensils<br>
+      <label for="bbq">Food Choices:</label><br />
+      <input type="checkbox" id="bbq" name="food" value="BBQ Ribs" /> BBQ
+      Ribs<br />
+      <input type="checkbox" id="pulledpork" name="food" value="Pulled Pork" />
+      Pulled Pork<br />
+      <input type="checkbox" id="brisket" name="food" value="Brisket" />
+      Brisket<br />
+      <input type="checkbox" id="chicken" name="food" value="Chicken" />
+      Chicken<br />
+      <input
+        type="checkbox"
+        id="mac_cheese"
+        name="food"
+        value="Sides Mac & Cheese"
+      />
+      Mac & Cheese<br />
+      <input
+        type="checkbox"
+        id="bakedbeans"
+        name="food"
+        value="Sides Baked Beans"
+      />
+      Baked Beans<br />
+      <input
+        type="checkbox"
+        id="greenbean"
+        name="food"
+        value="Sides Coleslaw"
+      />
+      Green Bean Casserole<br />
+      <label for="forks">Utensil Choices:</label><br />
+      <input type="checkbox" id="forks" name="utensils" value="Forks" />
+      Forks<br />
+      <input type="checkbox" id="knives" name="utensils" value="Knives" />
+      Knives<br />
+      <input type="checkbox" id="spoons" name="utensils" value="Spoons" />
+      Spoons<br />
+      <input type="checkbox" id="napkins" name="utensils" value="Napkins" />
+      Napkins<br />
+      <input type="checkbox" id="plates" name="utensils" value="Plates" />
+      Plates<br />
+      <input type="checkbox" id="cups" name="utensils" value="Cups" />
+      Cups<br />
+      <input
+        type="checkbox"
+        id="servingutensils"
+        name="utensils"
+        value="Serving Utensils"
+      />
+      Serving Utensils<br />
       <h3 class="catering-header">Additional Comments or Questions</h3>
-      <label for="comments">Comments:</label><br>
-      <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+      <label for="comments">Comments:</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+      ><br />
       <div class="form-row">
-          <input type="submit" />
+        <input type="submit" />
       </div>
     </form>
 
-    <footer>
-      &copy;Big Daddy Dave's 2025 (423)948-7898
-    </footer>
-</body>
+    <footer>&copy;Big Daddy Dave's 2025 (423)948-7898</footer>
+  </body>
 </html>
