@@ -42,6 +42,10 @@ body {
   color: rgb(236, 127, 42);
 }
 
+.headerlogo {
+  width: 200px;
+}
+
 h1,
 h2 {
   color: rgb(241, 227, 188);
@@ -116,7 +120,6 @@ p {
   text-align: center;
   margin: 2em 0;
   color: rgb(241, 227, 188);
-  
 }
 
 [type="submit"] {

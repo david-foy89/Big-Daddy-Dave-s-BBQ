@@ -27,7 +27,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 200px;
 }
 
 .header-nav-menu {
@@ -41,6 +40,10 @@ body {
   margin-right: 40px;
   text-decoration: none;
   color: rgb(236, 127, 42);
+}
+
+.headerlogo {
+  width: 200px;
 }
 
 h1,
