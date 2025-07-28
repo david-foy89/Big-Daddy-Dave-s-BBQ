@@ -1,3 +1,5 @@
-Potential Customer- Can easily view menu with photos, descriptions, and prices to decide what to order. 
-Potential Customer-Can place a custom catering order and contact resturant with questions or feedback through contact form.
-Potential employees- Can submit their information including resume to join the resturant team. 
+As a potential customer I want to view a catering menu so I can decide what I want to order. 
+
+As a potential customer I want to be able to place a custom catering order and be able to contact the resturant.
+
+As a potential employee I want to be able to submit my information and resume so I can be hired. 

@@ -136,6 +136,13 @@ p {
   background-color: black;
 }
 
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(241, 227, 188);
+  font-size: 16px;
+}
+
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
@@ -149,11 +156,4 @@ p {
     width: 125px;
     height: 125px;
   }
-}
-
-footer {
-  text-align: center;
-  margin-top: 20px;
-  color: rgb(241, 227, 188);
-  font-size: 16px;
 }
