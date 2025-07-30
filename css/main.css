@@ -14,11 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   margin: 15px;
+  width: auto;
 }
 
 .logo {
-  display: block;
-  width: 900px;
+  display: flex;
+  width: 60%;
   height: auto;
   margin: auto;
 }
@@ -34,6 +35,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  overflow: auto;
 }
 
 .header-menu-item a {
@@ -43,7 +45,7 @@ body {
 }
 
 .headerlogo {
-  width: 200px;
+  width: 25%;
 }
 
 h1,
@@ -53,6 +55,10 @@ h3 {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.main-content {
+  max-width: 100%;
 }
 
 p {
