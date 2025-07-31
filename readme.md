@@ -18,6 +18,7 @@ Welcome to **Big Daddy Dave's BBQ** — your digital pit stop for mouthwatering 
 
 - HTML5
 - CSS
+- JavaScript
 - [GitHub Pages](https://pages.github.com/) for hosting
 
 ## File Structure
