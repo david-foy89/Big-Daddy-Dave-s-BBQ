@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catering</title>
-    <link rel="stylesheet" href="css/menu.css" />
+    <meta
+      name="description"
+      content="Big Daddy Dave's BBQ catering services in Erwin, TN. Perfect for events, parties, and gatherings. Request your BBQ catering quote today!"
+    />
+    <title>Catering Services - Big Daddy Dave's BBQ | Event Catering</title>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <a href="index.html"
-          ><img src="images/logo2.png" alt="logo" class="headerlogo"
+          ><img
+            src="images/logo2.png"
+            alt="Big Daddy Dave's BBQ logo"
+            class="headerlogo"
         /></a>
         <ul class="nav-menu">
           <li class="nav-item">
@@ -36,101 +43,247 @@
         </div>
       </nav>
     </header>
-    <div class="catering-intro">
-      <h1>Catering Request Form</h1>
-      <p>
-        At Big Daddy Dave's BBQ, we take pride in serving up the best barbecue
-        in town. Whether you're planning a small gathering or a large event, we
-        have the perfect catering options to satisfy your guests. Fill out the
-        form below to get started on your catering request!
-      </p>
-    </div>
-    <form
-      class="catering-form"
-      action="https://formspree.io/f/xldlrqgl"
-      method="POST"
-    >
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" required /><br />
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" required /><br />
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" /><br />
-      <label for="guests">Number of Guests:</label>
-      <input type="number" id="guests" name="guests" /><br />
-      <label for="date">Event Date:</label>
-      <input type="date" id="date" name="date" required /><br />
-      <label for="pickup">Pickup:</label>
-      <input type="radio" id="pickup" name="pickup" value="pickup" /><br />
-      <label for="delivery">Delivery:</label>
-      <input
-        type="radio"
-        id="delivery"
-        name="delivery"
-        value="delivery"
-      /><br />
-      <label for="time">Time for Pickup/Delivery</label><br />
-      <input type="time" id="time" name="time" /><br />
-      <h3 class="catering-header">Food & Utensil Choices</h3>
-      <label for="bbq">Food Choices:</label><br />
-      <input type="checkbox" id="bbq" name="food" value="BBQ Ribs" /> BBQ
-      Ribs<br />
-      <input type="checkbox" id="pulledpork" name="food" value="Pulled Pork" />
-      Pulled Pork<br />
-      <input type="checkbox" id="brisket" name="food" value="Brisket" />
-      Brisket<br />
-      <input type="checkbox" id="chicken" name="food" value="Chicken" />
-      Chicken<br />
-      <input
-        type="checkbox"
-        id="mac_cheese"
-        name="food"
-        value="Sides Mac & Cheese"
-      />
-      Mac & Cheese<br />
-      <input
-        type="checkbox"
-        id="bakedbeans"
-        name="food"
-        value="Sides Baked Beans"
-      />
-      Baked Beans<br />
-      <input
-        type="checkbox"
-        id="greenbean"
-        name="food"
-        value="Sides Coleslaw"
-      />
-      Green Bean Casserole<br />
-      <hr />
-      <label for="forks">Utensil Choices:</label><br />
-      <input type="checkbox" id="forks" name="utensils" value="Forks" />
-      Forks<br />
-      <input type="checkbox" id="knives" name="utensils" value="Knives" />
-      Knives<br />
-      <input type="checkbox" id="spoons" name="utensils" value="Spoons" />
-      Spoons<br />
-      <input type="checkbox" id="napkins" name="utensils" value="Napkins" />
-      Napkins<br />
-      <input type="checkbox" id="plates" name="utensils" value="Plates" />
-      Plates<br />
-      <input type="checkbox" id="cups" name="utensils" value="Cups" />
-      Cups<br />
-      <input
-        type="checkbox"
-        id="servingutensils"
-        name="utensils"
-        value="Serving Utensils"
-      />
-      Serving Utensils<br />
-      <h3 class="catering-header">Additional Comments or Questions</h3>
-      <label for="comments">Comments:</label><br />
-      <textarea id="comments" name="comments" rows="4" cols="50"></textarea
-      ><br />
-      <div class="form-row">
-        <input type="submit" />
-      </div>
-    </form>
+    <main class="catering-content">
+      <section class="catering-intro">
+        <h1>Catering Request Form</h1>
+        <p>
+          At Big Daddy Dave's BBQ, we take pride in serving up the best barbecue
+          in town. Whether you're planning a small gathering or a large event,
+          we have the perfect catering options to satisfy your guests. Fill out
+          the form below to get started on your catering request!
+        </p>
+      </section>
+
+      <section class="catering-form-section">
+        <form
+          class="catering-form"
+          action="https://formspree.io/f/xldlrqgl"
+          method="POST"
+        >
+          <fieldset class="personal-info">
+            <legend>Personal Information</legend>
+            <div class="form-group">
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </fieldset>
+
+          <fieldset class="event-details">
+            <legend>Event Details</legend>
+            <div class="form-group">
+              <label for="guests">Number of Guests:</label>
+              <input type="number" id="guests" name="guests" min="1" />
+            </div>
+            <div class="form-group">
+              <label for="date">Event Date:</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-group">
+              <label for="time">Time for Pickup/Delivery:</label>
+              <input type="time" id="time" name="time" />
+            </div>
+            <div class="form-group radio-group">
+              <span class="group-label">Service Type:</span>
+              <div class="radio-options">
+                <label for="pickup">
+                  <input
+                    type="radio"
+                    id="pickup"
+                    name="service_type"
+                    value="pickup"
+                  />
+                  Pickup
+                </label>
+                <label for="delivery">
+                  <input
+                    type="radio"
+                    id="delivery"
+                    name="service_type"
+                    value="delivery"
+                  />
+                  Delivery
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="food-choices">
+            <legend>Food & Utensil Choices</legend>
+            <div class="choice-group">
+              <h4>Main Dishes:</h4>
+              <div class="checkbox-group">
+                <label for="bbq">
+                  <input
+                    type="checkbox"
+                    id="bbq"
+                    name="food"
+                    value="BBQ Ribs"
+                  />
+                  BBQ Ribs
+                </label>
+                <label for="pulledpork">
+                  <input
+                    type="checkbox"
+                    id="pulledpork"
+                    name="food"
+                    value="Pulled Pork"
+                  />
+                  Pulled Pork
+                </label>
+                <label for="brisket">
+                  <input
+                    type="checkbox"
+                    id="brisket"
+                    name="food"
+                    value="Brisket"
+                  />
+                  Brisket
+                </label>
+                <label for="chicken">
+                  <input
+                    type="checkbox"
+                    id="chicken"
+                    name="food"
+                    value="Chicken"
+                  />
+                  Chicken
+                </label>
+              </div>
+            </div>
+
+            <div class="choice-group">
+              <h4>Sides:</h4>
+              <div class="checkbox-group">
+                <label for="mac_cheese">
+                  <input
+                    type="checkbox"
+                    id="mac_cheese"
+                    name="food"
+                    value="Mac & Cheese"
+                  />
+                  Mac & Cheese
+                </label>
+                <label for="bakedbeans">
+                  <input
+                    type="checkbox"
+                    id="bakedbeans"
+                    name="food"
+                    value="Baked Beans"
+                  />
+                  Baked Beans
+                </label>
+                <label for="greenbean">
+                  <input
+                    type="checkbox"
+                    id="greenbean"
+                    name="food"
+                    value="Green Bean Casserole"
+                  />
+                  Green Bean Casserole
+                </label>
+              </div>
+            </div>
+            <div class="choice-group">
+              <h4>Utensils & Supplies:</h4>
+              <div class="checkbox-group">
+                <label for="forks">
+                  <input
+                    type="checkbox"
+                    id="forks"
+                    name="utensils"
+                    value="Forks"
+                  />
+                  Forks
+                </label>
+                <label for="knives">
+                  <input
+                    type="checkbox"
+                    id="knives"
+                    name="utensils"
+                    value="Knives"
+                  />
+                  Knives
+                </label>
+                <label for="spoons">
+                  <input
+                    type="checkbox"
+                    id="spoons"
+                    name="utensils"
+                    value="Spoons"
+                  />
+                  Spoons
+                </label>
+                <label for="napkins">
+                  <input
+                    type="checkbox"
+                    id="napkins"
+                    name="utensils"
+                    value="Napkins"
+                  />
+                  Napkins
+                </label>
+                <label for="plates">
+                  <input
+                    type="checkbox"
+                    id="plates"
+                    name="utensils"
+                    value="Plates"
+                  />
+                  Plates
+                </label>
+                <label for="cups">
+                  <input
+                    type="checkbox"
+                    id="cups"
+                    name="utensils"
+                    value="Cups"
+                  />
+                  Cups
+                </label>
+                <label for="servingutensils">
+                  <input
+                    type="checkbox"
+                    id="servingutensils"
+                    name="utensils"
+                    value="Serving Utensils"
+                  />
+                  Serving Utensils
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="additional-info">
+            <legend>Additional Comments or Questions</legend>
+            <div class="form-group">
+              <label for="comments">Comments:</label>
+              <textarea
+                id="comments"
+                name="comments"
+                rows="4"
+                cols="50"
+                placeholder="Any special requests, dietary restrictions, or additional information..."
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <div class="form-actions">
+            <input
+              type="submit"
+              value="Submit Catering Request"
+              class="submit-btn"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
 
     <footer>&copy;Big Daddy Dave's 2025 (423) 948-7898</footer>
     <script src="js/script.js"></script>

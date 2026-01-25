@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Careers</title>
+    <meta
+      name="description"
+      content="Join the Big Daddy Dave's BBQ team in Erwin, TN. We're hiring passionate individuals who love great food and exceptional service. Apply today!"
+    />
+    <title>Join Our Team - Big Daddy Dave's BBQ Careers</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <a href="index.html"
-          ><img src="images/logo2.png" alt="logo" class="headerlogo"
+          ><img
+            src="images/logo2.png"
+            alt="Big Daddy Dave's BBQ logo"
+            class="headerlogo"
         /></a>
         <ul class="nav-menu">
           <li class="nav-item">
@@ -36,41 +43,160 @@
         </div>
       </nav>
     </header>
-    <h1>Join Our Team</h1>
-    <p>
-      At Big Daddy Dave’s BBQ, we’re always on the lookout for passionate
-      individuals who share our love for great food and exceptional service. If
-      you’re ready to roll up your sleeves and be part of a team that’s
-      dedicated to bringing the best barbecue experience to our community, we
-      want to hear from you!
-    </p>
+    <main class="careers-content">
+      <section class="careers-hero">
+        <h1>Join Our Team</h1>
+        <p class="hero-text">
+          At Big Daddy Dave's BBQ, we're always on the lookout for passionate
+          individuals who share our love for great food and exceptional service.
+          If you're ready to roll up your sleeves and be part of a team that's
+          dedicated to bringing the best barbecue experience to our community,
+          we want to hear from you!
+        </p>
+      </section>
 
-    <form
-      action="https://formspree.io/f/xvgqpezj"
-      method="post"
-      enctype="multipart/form-data"
-      class="appform"
-    >
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br /><br />
+      <section class="why-work-here">
+        <h2>Why Work at Big Daddy Dave's?</h2>
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <h3>🔥 Learn from the Best</h3>
+            <p>Master the art of authentic BBQ from experienced pitmasters</p>
+          </div>
+          <div class="benefit-item">
+            <h3>👨‍👩‍👧‍👦 Family Atmosphere</h3>
+            <p>Join a close-knit team that supports each other</p>
+          </div>
+          <div class="benefit-item">
+            <h3>💰 Competitive Pay</h3>
+            <p>Fair wages with opportunities for advancement</p>
+          </div>
+          <div class="benefit-item">
+            <h3>⏰ Flexible Scheduling</h3>
+            <p>Work-life balance with scheduling that works for you</p>
+          </div>
+        </div>
+      </section>
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
+      <section class="open-positions">
+        <h2>Current Openings</h2>
+        <div class="positions-list">
+          <div class="position">
+            <h3>Kitchen Staff</h3>
+            <p>
+              Help prepare our delicious BBQ dishes and sides. Experience
+              preferred but we'll train the right person!
+            </p>
+          </div>
+          <div class="position">
+            <h3>Server/Cashier</h3>
+            <p>
+              Provide excellent customer service and help create memorable
+              dining experiences for our guests.
+            </p>
+          </div>
+          <div class="position">
+            <h3>Prep Cook</h3>
+            <p>
+              Assist with food preparation and maintain our high standards of
+              quality and cleanliness.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <label for="phone">Phone:</label><br />
-      <input type="tel" id="phone" name="phone" /><br /><br />
+      <section class="application-section">
+        <h2>Ready to Apply?</h2>
+        <p class="application-intro">
+          Fill out the form below and attach your resume. We'll get back to you
+          soon!
+        </p>
 
-      <label for="resume">Upload Resume:</label><br />
-      <input
-        type="file"
-        id="resume"
-        name="resume"
-        accept=".pdf,.doc,.docx"
-        required
-      /><br /><br />
+        <form
+          action="https://formspree.io/f/xvgqpezj"
+          method="post"
+          enctype="multipart/form-data"
+          class="application-form"
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
 
-      <button type="submit">Submit Application</button>
-    </form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="position">Position Interested In</label>
+              <select id="position" name="position">
+                <option value="">Select a position</option>
+                <option value="kitchen-staff">Kitchen Staff</option>
+                <option value="server-cashier">Server/Cashier</option>
+                <option value="prep-cook">Prep Cook</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="availability">Availability</label>
+            <textarea
+              id="availability"
+              name="availability"
+              rows="3"
+              placeholder="Please describe your availability (days, hours, start date, etc.)"
+            ></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="experience">Relevant Experience</label>
+            <textarea
+              id="experience"
+              name="experience"
+              rows="4"
+              placeholder="Tell us about any relevant work experience, especially in food service or customer service..."
+            ></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="why-work-here"
+              >Why do you want to work at Big Daddy Dave's?</label
+            >
+            <textarea
+              id="why-work-here"
+              name="why-work-here"
+              rows="3"
+              placeholder="What attracts you to working with our BBQ team?"
+            ></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="resume">Upload Resume *</label>
+            <div class="file-upload">
+              <input
+                type="file"
+                id="resume"
+                name="resume"
+                accept=".pdf,.doc,.docx"
+                required
+              />
+              <span class="file-note">Accepted formats: PDF, DOC, DOCX</span>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="submit-btn">Submit Application</button>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer>&copy;Big Daddy Dave's 2025 (423) 948-7898</footer>
     <script src="js/script.js"></script>
   </body>
